@@ -1,9 +1,5 @@
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFMl/System.hpp>
-#include <iostream>
-#include "Funcs.h"
-#include <random>
+#include "gameMechanics.h"
+
 
 
 using namespace sf;
@@ -11,8 +7,8 @@ using namespace std;
 
 int main()
 {
-
+    RenderWindow window(VideoMode({ WINDOW_WIDTH, WINDOW_HEIGHT }), "Cash Grab!");
     gameEngine engine;
-    engine.run();
+    engine.run(&window);
     return 0;
 }

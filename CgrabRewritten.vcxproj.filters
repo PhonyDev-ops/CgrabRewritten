@@ -18,15 +18,21 @@
     <ClCompile Include="CgrabRewritten.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Funcs.cpp">
+    <ClCompile Include="gameMechanics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Funcs.h">
+    <ClInclude Include="gameMechanics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

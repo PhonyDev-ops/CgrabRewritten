@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CgrabRewritten.cpp" />
-    <ClCompile Include="Funcs.cpp" />
+    <ClCompile Include="gameMechanics.cpp" />
+    <ClCompile Include="gameStart.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Funcs.h" />
+    <ClInclude Include="gameMechanics.h" />
+    <ClInclude Include="gameStart.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
